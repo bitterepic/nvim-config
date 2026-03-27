@@ -4,3 +4,6 @@
 
 vim.diagnostic.config({ virtual_text = false })
 vim.g.autoformat = false
+vim.g.lazyvim_ruby_lsp = "ruby_lsp"
+vim.g.lazyvim_ruby_formatter = "rubocop"
+vim.lsp.enable('steep')
