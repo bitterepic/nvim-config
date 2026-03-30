@@ -23,6 +23,8 @@ return {
       auto_close = true, -- auto close when there are no items
       auto_open = true, -- auto open when there are items
       auto_refresh = true, -- auto refresh when open
+      mode = "diagnostics", -- inherit from diagnostics mode
+      filter = { buf = 0 }, -- filter diagnostics to the current buffer
     }
 
     return opts
